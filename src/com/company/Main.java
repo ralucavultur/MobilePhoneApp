@@ -74,6 +74,10 @@ public class Main {
                 break;
             case "no":
                 mobilePhone.modifyContact(name, newName, mobilePhone.getMobilePhone().get(mobilePhone.getContactPosition(name)).getPhoneNr());
+                break;
+            default:
+                System.out.println("Invalid value");
+                break;
 
         }
 
